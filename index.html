@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0;
+      }
+      body {
+        background-color: #03254c;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 65px;
+        background-color: #0b4b83;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .left img {
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        margin: -7px 10px ;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 23px 0;
+      }
+      .leftSection {
+        width: 30%;
+        font-size: 1.5rem;
+        margin: 34px 0;
+        text-align: left;
+      }
+      .developer {
+        border-radius: 35px;
+        height: 450px;
+        width: 450px;
+        margin: 44px 0;
+      }
+      .right ul li:hover {
+        text-decoration-line: underline;
+      }
+      nav ul li:hover {
+        color: rgb(233, 233, 233);
+        font-size: 1.2rem;
+      }
+      .purple {
+        color: #d0efff;
+      }
+      .about-me {
+        margin: 25px 0px;
+      }
+      .about-me a {
+        color: white;
+        text-decoration-line: none;
+        border-style: solid;
+        border-color: white;
+        background-color: #0b4b83;
+        border-radius: 5px;
+        padding: 0 10px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left"><img src="PFP.png" alt=""> Tsunami's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Past Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, I am <span class="purple">Tsunami</span>. <br />
+          <span id="element"></span>
+          <div class="about-me">
+            <a href="">Discord</a>
+          </div>
+        </div>
+        <div class="rightSecton">
+          <img src="Developer.png" class="developer" alt="" />
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["I am a programmer."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
