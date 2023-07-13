@@ -35,6 +35,13 @@ nav ul li a {
   height: 30px;
   margin: -7px 10px;
 }
+.right ul li:hover {
+  text-decoration-line: underline;
+}
+nav ul li:hover {
+  color: rgb(233, 233, 233);
+  font-size: 1.2rem;
+}
 .card {
   display: flex;
   padding: 80px 30px;
@@ -47,12 +54,13 @@ nav ul li a {
   text-align: justify;
 }
 .card a {
-  background-color: #03254c;
+  background-color: #09478d;
   color: white;
   text-decoration: none;
   border-radius: 3px;
   font-size: 1.5rem;
-  margin: 0 98px;
+  margin: 0 90px;
+  padding: 5px;
 }
 .discord {
   box-shadow: 5px 0px 30px grey;
