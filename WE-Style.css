@@ -41,6 +41,14 @@
     margin-top: 200px;
     font-size: 3rem;
   }
+  .right ul li:hover {
+    text-decoration-line: underline;
+  }
+  nav ul li:hover {
+    color: rgb(233, 233, 233);
+    font-size: 1.2rem;
+  }
+
 @media screen and (max-width: 900px) {
     .right ul li {
       margin: 0px 10px;
