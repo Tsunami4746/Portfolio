@@ -71,6 +71,7 @@
     justify-content: center;
     display: flex;
     font-size: 1.3rem;
+    margin-top: 225px;
   }
   @media screen and (max-width: 900px) {
     .right ul li {
@@ -91,7 +92,6 @@
     .content{
       justify-content: space-evenly;
       text-align: center;
-      margin-top: 225px;
     }
     .buttons{
       justify-content: space-evenly;
