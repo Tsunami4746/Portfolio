@@ -100,3 +100,31 @@ nav ul li:hover {
 .space-3 {
   height: 135px;
 }
+@media screen and (max-width: 900px) {
+  .right ul li {
+    margin: 0px 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+    min-width: 480px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body header nav {
+    flex-direction: column;
+    height: 100px;
+  }
+  .card{
+    flex-direction: column;
+    align-items: center;
+    padding: 10PX;
+  }
+  .Web-development{
+    margin: 50px;
+  }
+  .Roblox-Scripting{
+    margin-top: 50px;
+  }
+}
