@@ -87,10 +87,10 @@ nav ul li:hover {
   }
 }
 @media screen and (max-width: 800px) {
-  body header nav {
-    flex-direction: column;
-    height: 100px;
-  }
+   body header nav {
+      flex-direction: column;
+      height: 100px;
+    }
   .firstSection {
     flex-direction: column;
   }
