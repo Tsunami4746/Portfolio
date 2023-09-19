@@ -84,6 +84,13 @@
       min-width: 480px;
     }
   }
+  @media screen and (max-width: 413px) { 
+    /* For mobile */
+    body {
+      width: 100%;
+      min-width: 413px;
+    }
+}
   @media screen and (max-width: 800px) {
     body header nav {
       flex-direction: column;
@@ -92,6 +99,7 @@
     .content{
       justify-content: space-evenly;
       text-align: center;
+      margin-top: 225px;
     }
     .buttons{
       justify-content: space-evenly;
