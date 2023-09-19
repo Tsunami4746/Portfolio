@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+body {
+  background-color: #03254c;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  background-color: #0b4b83;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.left {
+  font-size: 1.5rem;
+}
+.left img {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  margin: -7px 10px;
+}
+.right ul li:hover {
+  text-decoration-line: underline;
+}
+nav ul li:hover {
+  color: rgb(233, 233, 233);
+  font-size: 1.2rem;
+}
+.card {
+  display: flex;
+  padding: 80px 30px;
+  justify-content: space-evenly;
+}
+.card h2 {
+  text-align: center;
+}
+.card p {
+  text-align: justify;
+}
+.card a {
+  background-color: #0e4788;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  padding: 5px;
+  margin: 0 90px;
+}
+.discord {
+  box-shadow: 5px 0px 30px grey;
+  background-color: rgb(248, 248, 248);
+  color: black;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+.space-1 {
+  height: 60px;
+}
+
+.Web-development {
+  box-shadow: 5px 0px 30px grey;
+  background-color: rgb(248, 248, 248);
+  color: black;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  padding: 10px 10px;
+}
+.space-2 {
+  height: 135px;
+}
+
+.Roblox-Scripting {
+  box-shadow: 5px 0px 30px grey;
+  background-color: rgb(248, 248, 248);
+  color: black;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  padding: 10px 10px;
+}
+.space-3 {
+  height: 135px;
+}
+@media screen and (max-width: 900px) {
+  .right ul li {
+    margin: 0px 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+    min-width: 480px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body header nav {
+    flex-direction: column;
+    height: 100px;
+  }
+  .card{
+    flex-direction: column;
+    align-items: center;
+    padding: 10PX;
+  }
+  .Web-development{
+    margin: 50px;
+  }
+  .Roblox-Scripting{
+    margin-top: 50px;
+  }
+}

@@ -4,9 +4,9 @@
   }
   body {
     width: 100%;
-    background-color: #03254c;
-    color: white;
-    font-family: "Poppins", sans-serif;
+    background-color: #03254c !important;
+    color: white !important;
+    font-family: "Poppins", sans-serif !important;
   }
   nav {
     display: flex;
@@ -49,6 +49,38 @@
     font-size: 1.2rem;
   }
 
+  .card-column {
+    display: flex;
+    padding: 80px 30px;
+    justify-content: space-evenly;
+  }
+  .card-column h2 {
+    text-align: center;
+  }
+  .card-column p {
+    text-align: justify;
+  }
+  .card-column a {
+    background-color: #0e4788;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 0 90px;
+    margin-top: 10px;
+  }
+
+  .card {
+    box-shadow: 5px 0px 30px grey;
+    background-color: rgb(248, 248, 248);
+    color: black;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px 10px;
+  }
+
 @media screen and (max-width: 900px) {
     .right ul li {
       margin: 0px 10px;
@@ -64,5 +96,10 @@
     body header nav {
       flex-direction: column;
       height: 100px;
+    }
+    .card{
+      flex-direction: column;
+      align-items: center;
+      padding: 10PX;
     }
 }
