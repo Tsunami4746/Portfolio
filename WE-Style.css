@@ -49,6 +49,13 @@
     font-size: 1.2rem;
   }
 
+.Center{
+  justify-content: center;
+  display: flex;
+  margin-top: 20rem;
+  font-size: 2rem;
+}
+
   .card-column {
     display: flex;
     padding: 80px 30px;
@@ -97,6 +104,8 @@
     body {
       width: 100%;
       min-width: 413px;
+      overflow: hidden;
+      position: fixed;
     }
   }
   @media screen and (max-width: 800px) {
