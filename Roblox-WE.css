@@ -1,0 +1,164 @@
+/* Header */
+
+* {
+  margin: 0px;
+  padding: 0;
+}
+body {
+  width: 100%;
+  background-color: #03254c;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  background-color: #0b4b83;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.left {
+  font-size: 1.5rem;
+}
+.left img {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  margin: -7px 10px;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 23px 0;
+}
+.leftSection {
+  width: 30%;
+  font-size: 1.5rem;
+  margin: 34px 0;
+  text-align: left;
+}
+.developer {
+  border-radius: 35px;
+  height: 450px;
+  width: 450px;
+  margin: 44px 0;
+}
+.right ul li:hover {
+  text-decoration-line: underline;
+}
+nav ul li:hover {
+  color: rgb(233, 233, 233);
+  font-size: 1.2rem;
+} 
+
+
+/* Main */
+
+.card-column {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0px;
+  margin: 50px 50px;
+}
+
+
+.card {    
+  box-shadow: 5px 0px 30px grey;
+  background-color: rgb(244, 245, 245);
+  color: black;
+  height: 275px;
+  width:355px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem; 
+  margin: 10px;
+}
+
+.video {
+  border-radius: 5px;
+}
+
+.text{
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*  For Other devices */
+@media screen and (max-width: 1190px) {
+  body {
+    width: 100%;
+    min-width: 1190px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .right ul li {
+    margin: 0px 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+    min-width: 480px;
+  }
+}
+@media screen and (max-width: 413px) { 
+  /* For mobile */
+  body {
+    width: 100%;
+    min-width: 413px;
+  }
+  .card-column{
+    margin: 0px;
+  }
+  .top{
+    margin-top: 10px;
+  }
+  .card{
+    max-width: 300px;
+    justify-content: center;
+  }
+  .video{
+    width: 275px;
+    height: 175px;
+  }
+  .text{
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  body header nav {
+    flex-direction: column;
+    height: 100px;
+  }
+  .card{
+    flex-direction: column;
+    align-items: center;
+    padding: 10PX;
+    margin: 10px;
+  }
+  .card-column {
+    flex-direction: column;
+    align-items: center;
+    padding: 10PX;
+  }
+}
