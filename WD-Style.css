@@ -118,7 +118,6 @@
     body {
       width: 100%;
       min-width: 413px;
-      overflow: hidden;
       position: fixed;
     }
   }
